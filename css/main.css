@@ -1,6 +1,16 @@
+body {
+    font-family: "Poppins",sans-serif;
+    font-weight:300;
+    -webkit-font-smoothing: antialiased;
+}
+h1 {
+    font-weight:800;
+}
+h2 {
+    font-weight:300;
+}
 .navbar {
     background: #0a3795;
-    font-family: "Poppins",sans-serif;
     text-transform: uppercase;
     width: 100%;
     height: 5rem;
@@ -20,7 +30,6 @@
 .btn {
     font-size: .7rem;
     font-weight: 500;
-    -webkit-font-smoothing: antialiased;
 }
 .btn.btn-link {
     color: #fff;
