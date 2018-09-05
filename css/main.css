@@ -2,3 +2,9 @@
     padding-bottom: 2rem;
     padding-top: 6rem;
 }
+.grid-hero .card {
+    background: 0 0;
+    border: 0;
+    color: #727e96;
+    padding: .5rem;
+}
