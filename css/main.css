@@ -5,7 +5,10 @@
     width: 100%;
     height: 80px;
 }
-.navbar a {
+.navbar img {
+    float: left;
+}
+.btn.btn-link {
     color: #fff;
 }
 .grid-hero {
