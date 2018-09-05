@@ -8,11 +8,11 @@
 .logo img {
     height: 2.5rem;
 }
-.logo a.btn.btn-link {
+.logo span {
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 800;
 }
-.logo a.btn.btn-link span {
+.logo .abp{
     color: #4cc0f8;
 }
 .btn {
