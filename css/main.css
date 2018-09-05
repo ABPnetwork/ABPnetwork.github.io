@@ -1,10 +1,12 @@
 .navbar {
     background: #0a3795;
-    color: #fff;
     font-family: "Poppins",sans-serif;
     text-transform: uppercase;
     width: 100%;
     height: 80px;
+}
+.navbar a {
+    color: #fff;
 }
 .grid-hero {
     padding-bottom: 2rem;
