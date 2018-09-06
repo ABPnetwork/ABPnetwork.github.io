@@ -15,9 +15,12 @@ h2 {
 h3 {
     font-weight: 900;
 }
+ol, ul {
+    margin: 0;
+}
 ol li, ul li {
     display: inline-block;
-    width: 125px;
+    width: 150px;
     margin: 0;
     text-align: center;
 }
