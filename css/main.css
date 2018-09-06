@@ -86,7 +86,9 @@ a.active, a:active, a:focus, a:hover {
 }
 .bg-desc {
     background: #0d42b2;
-    padding: 6rem 3rem 2rem;
+}
+.bg-desc .column{
+    padding: 3rem;
 }
 .text-secondary {
     color: #bbdbff;
