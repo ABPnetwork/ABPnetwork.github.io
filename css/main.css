@@ -70,7 +70,7 @@ a.active, a:active, a:focus, a:hover {
 }
 .tv {
     opacity: 0.9;
-    height: 20rem;
+    height: 75%;
 }
 .bg-desc {
     background: #0d42b2;
