@@ -32,6 +32,10 @@ ol li, ul li {
     padding: 0 3rem;
     z-index: 1;
 }
+.logo {
+    display: flex;
+    align-items: center;
+}
 .logo img {
     height: 2.5rem;
 }
