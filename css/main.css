@@ -98,6 +98,6 @@ a.active, a:active, a:focus, a:hover {
 a.footer-link {
     color:#41faa4;
 }
-.columns.columns-footer {
+.columns.columns-footer .column {
     margin-bottom: 3rem;
 }
