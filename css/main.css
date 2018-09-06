@@ -75,7 +75,7 @@ a.active, a:active, a:focus, a:hover {
     height: 20rem;
 }
 .bg-desc {
-    padding: 12rem 3rem 2rem;
+    padding: 5rem 3rem 2rem;
     background: #0d42b2;
 }
 .bg-desc .column{
