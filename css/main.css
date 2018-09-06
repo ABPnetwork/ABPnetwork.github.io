@@ -34,9 +34,14 @@ h3 {
 .logo .abp{
     color: #5cd0ac;
 }
+a.active, a:active, a:focus, a:hover {
+    color: #0d42b2;
+}
 .btn {
     font-size: .7rem;
-    font-weight: 500;
+    font-weight: 300;
+    border: 0;
+    color: #0d42b2;
 }
 .btn.btn-link {
     color: #fff;
