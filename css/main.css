@@ -43,7 +43,6 @@ a.active, a:active, a:focus, a:hover {
     color: #0d42b2;
     text-transform: uppercase;
 }
-}
 .btn.btn-lg {
     font-size: .7rem;
 }
