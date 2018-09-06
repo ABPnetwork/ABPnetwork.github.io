@@ -17,7 +17,6 @@ h3 {
 }
 .navbar {
     background: #0a3795;
-    text-transform: uppercase;
     width: 100%;
     height: 5rem;
     color: #fff;
@@ -42,6 +41,11 @@ a.active, a:active, a:focus, a:hover {
     font-weight: 300;
     border: 0;
     color: #0d42b2;
+    text-transform: uppercase;
+}
+}
+.btn-lg {
+    font-size: .7rem;
 }
 .btn.btn-link {
     color: #fff;
