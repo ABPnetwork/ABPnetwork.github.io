@@ -97,7 +97,7 @@ a.active, a:active, a:focus, a:hover {
 }
 .bg-roadmap {
     background-color: #41faa4;
-    background-image: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'…/%3E%3Ccircle fill='%230a3795' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'…/%3E%3Ccircle fill='%230a3795' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
 }
