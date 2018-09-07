@@ -11,47 +11,110 @@
 	<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<link rel="stylesheet" href="/css/main.css">
+	<script src="https://cdn.rawgit.com/danielrussellLA/autoScroll/master/autoScroll.js"></script>
 </head>
 <body>
 <header class="navbar fixed">
 	<section class="navbar-section logo">
-    		<span class="navbar-brand mr-2"><img src="/img/abp-logo.svg" alt="ABP Network, TV on Blockchain"></span>
-		<span><span class="abp">ABP</span> Network</span>
+    		<a href="/">
+			<span class="navbar-brand mr-2"><img src="/img/abp-logo.svg" alt="ABP Network, TV on Blockchain"></span>
+		</a>
+		<a href="/">
+			<span><span class="abp">ABP</span> Network</span>
+		</a>
 	</section>
   	<section class="navbar-section">
-		<a href="#" class="btn btn-link">What is ABP</a>
-    		<a href="roadmap/" class="btn btn-link">Roadmap</a>
+		<a href="/#what" class="btn btn-link">What is ABP</a>
+    		<a href="/roadmap/" class="btn btn-link">Roadmap</a>
     		<a href="#" class="btn btn-link">Apps</a>
 		<a href="#" class="btn btn-link">FAQ</a>
 		<a href="#" class="btn btn-link">Contact</a>
 	</section>
 </header>
-<div class="columns col-oneline bg-hero text-light">
-      <div class="column col-6 col-xs-12">
-        <h1>The First Decentralized TV&nbsp;Channel Where TV&nbsp;Shows Are Crowdfunded</h1>
+<div class="columns section bg-roadmap text-light">
+      <div class="column col-6 col-md-12">
+        <h1>Discover Our Roadmap</h1>
         <p>
-		<a class="btn btn-gray btn-lg mr-2" href="roadmap/">Roadmap</a>
-		<a class="btn btn-gray btn-lg" href="#" target="_blank">Learn More</a>
+		<a class="btn btn-gray btn-lg mr-2" href="/roadmap/#roadmap">See it now</a>
+		<a class="btn btn-gray btn-lg" href="#" target="_blank">FAQ</a>
 	</p>
         <p class="text-gray">
-		Blockchain Powered
+		Simplify Everyday
 	</p>
       </div>
-      <div class="column col-6 col-xs-12 text-center">
-	<img src="/img/screen.svg" class="tv">
+      <div class="column col-6 col-md-12 text-center">
+
       </div>
 </div>
-<div class="columns col-oneline bg-desc text-light">
-	<div class="column col-6 col-xs-12">
-		<h2>What is ABP Network</h2>
-		<h3>We are building a platform tailored to congrue with the future of viewer experience and content deployment.</h3>
-		<p>ABP Network is essentially a TV channel that is driven by decisions individuals undertake on the blockchain.</p>
-		<p class="text-secondary">Traditional TV networks are centralized and decide what content they wish to broadcast, but with ABP content will be proposed by prospective producers and voted on by a governance system using masternodes.</p>
-		<p class="text-secondary">This will entrust the consumers and viewers to have power over the content they want to see produced and aired on the channel, while a governance fund will be attributed to the selected proposals.</p>
-		<a class="btn btn-lg" href="#">Learn more on our FAQ</a>
-	</div>
-	<div class="column col-6 col-xs-12">
-	</div>
+<div id="roadmap" class="columns subsection bg-desc text-light">
+	<div class="timeline">
+                  <div class="timeline-item" id="q2-2018">
+                    <div class="timeline-left"><a class="timeline-icon icon-lg tooltip" href="#q2-2018" data-tooltip="Q2 2018"><i class="icon icon-check"></i></a></div>
+                    <div class="timeline-content">
+                      <div class="tile">
+                        <div class="tile-content">
+                          <p class="tile-subtitle">Q2 2018</p>
+                          <p class="tile-title">Research and Conception of Idea</p>
+			  <p class="tile-title">Team Creation</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline-item" id="q3-2018">
+                    <div class="timeline-left"><a class="timeline-icon tooltip" href="#q3-2018" data-tooltip="Q3 2018"></a></div>
+                    <div class="timeline-content">
+                      <div class="tile">
+                        <div class="tile-content">
+                          <p class="tile-subtitle">Q3 2018</p>
+                          <p class="tile-title">Preliminary Version of Whitepaper</p>
+                          <p class="tile-title">Digital Marketing Strategy</p>
+                          <p class="tile-title">Start of the ABP Blockchain and issuance of coins</p>
+			  <p class="tile-title">Creation of the Platform</p>
+			  <p class="tile-title">Creation of the WebTV</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline-item" id="q4-2018">
+                    <div class="timeline-left"><a class="timeline-icon tooltip" href="#q4-2018" data-tooltip="Q4 2018"></a></div>
+                    <div class="timeline-content">
+                      <div class="tile">
+                        <div class="tile-content">
+                          <p class="tile-subtitle">Q4 2018</p>
+			  <p class="tile-title">Creation of the first Apps</p>
+			  <p class="tile-title">Creation of the Set-top Box</p>
+                          <p class="tile-title">Masternode Statistical Service Listings</p>
+			  <p class="tile-title">Exchange Listings (Cryptopia & Crypto-Bridge)</p>
+			  <p class="tile-title">Beginning of Partnerships with Major Youtube Personalities, Media Companies, and Production Studios.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 </div>
-</body>
+<footer class="bg-footer text-light">
+	<div class="columns columns-footer">
+		<div class="column col-6 col-md-12">
+			<section class="logo">
+				<a href="/">
+					<span class="mr-2"><img src="/img/abp-logo.svg" alt="ABP Network, TV on Blockchain"></span>
+				</a>
+				<a href="/">
+					<span><span class="abp">ABP</span> Network</span>
+				</a>
+			</section>
+		</div>
+		<div class="column col-6 col-md-12 text-center">
+			<ul>
+				<li><a href="/#what" class="footer-link">What is ABP</a></li>
+				<li><a href="#" class="footer-link">ABP Apps</a></li>
+				<li><a href="#" class="footer-link">Learn More</a></li>
+				<li><a href="/roadmap/" class="footer-link">Roadmap</a></li>
+				<li><a href="#" class="footer-link">FAQ</a></li>
+				<li><a href="#" class="footer-link">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<section class="copyright text-right">Made with <span class="text-error">♥</span> by Coinlabs</section>
+</footer>
 </html>
