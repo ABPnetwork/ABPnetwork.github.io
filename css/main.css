@@ -110,7 +110,7 @@ a.active, a:active, a:focus, a:hover {
 .card {
     background: transparent;
 }
-.card-header {
+.card-title {
     font-weight: 800;
     padding-bottom: 1rem;
 }
