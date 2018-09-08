@@ -112,3 +112,9 @@ a.footer-link {
 .columns.columns-footer .column {
     margin-bottom: 3rem;
 }
+.timeline .timeline-item .timeline-icon.icon-lg {
+    background: #46a084;
+}
+.timeline .timeline-item .timeline-icon::before {
+    border: .1rem solid #41faa4;
+}
