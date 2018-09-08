@@ -109,10 +109,14 @@ a.active, a:active, a:focus, a:hover {
 }
 .card {
     background: transparent;
+    height: 100%;
 }
 .card-title {
     font-weight: 800;
     padding-bottom: 1rem;
+}
+.column.col-4.filter-item {
+    margin-bottom: 1rem;
 }
 .bg-footer {
     background: #0a3795;
