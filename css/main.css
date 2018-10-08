@@ -31,6 +31,9 @@ ol li, ul li {
     padding: 0 3rem;
     z-index: 1;
 }
+.navbar .btn-primary {
+    margin: 2rem;
+}
 .logo {
     display: flex;
     align-items: center;
